@@ -61,13 +61,13 @@ foo.someMethod(); //event emitted from class
 ```
 
 ## Methods
- * `subscribe(to, subscriber)` - Subscribes the subscriber function to the specified event
-    * `returns` A subscriber object containing the event name and the index of the subscriber that can be passed to `unsubscribe`
+* `subscribe(to, subscriber)` - Subscribes the subscriber function to the specified event
+  * `returns` A subscriber object containing the event name and the index of the subscriber that can be passed to `unsubscribe`
 * `unsubscribe(ticket)` - Unsubscribes a subscriber from an event
-    * `returns` Success {boolean}  
+  * `returns` Success {boolean}  
 * `emit(event [, ...args])` -  Emits the specified event passing your class (`this`) and any additional arguments to the subscriber
 * `event(event)` - Gets the specified event
-    * `returns` An object containing methods `remove` and `clear`
+  * `returns` An object containing methods `remove` and `clear`
 * `event(event).remove` - Removes the specified event and all subscribers
 * `event(event).clear` - Clears all subscribers from an event
 
