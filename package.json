@@ -1,0 +1,41 @@
+{
+  "name": "emit-it",
+  "version": "0.1.0",
+  "description": "A simple event emitter that can be used standalone or subclassed in ES6.",
+  "main": "build/EmitIt.js",
+  "scripts": {
+    "test": "mocha ./tests/EmitIt.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwstovall/emit-it.git"
+  },
+  "keywords": [
+    "events",
+    "event",
+    "emit",
+    "emitter",
+    "epubsub",
+    "pub",
+    "sub",
+    "publish",
+    "subscribe",
+    "pub-sub",
+    "it"
+  ],
+  "author": "Harrison Stovall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hwstovall/emit-it/issues"
+  },
+  "homepage": "https://github.com/hwstovall/emit-it#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.2.0",
+    "mocha": "^2.2.5"
+  }
+}
